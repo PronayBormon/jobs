@@ -1,0 +1,275 @@
+.bannar_video{    
+    height: 70vh;    
+    position: relative;
+}
+.bannar_video video{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.bannar_video::before{
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background: #00000059;
+    z-index: 0;
+}
+.bannar_video h1{
+    
+color: #ff6b25;
+    
+/* -webkit-text-fill-color: rgb(250 153 0 / 40%); */
+    
+/* -webkit-text-stroke: 1px #ffffff42; */
+    
+font-family: serif;
+    }
+    .bannar_video .bnr_div{
+    
+position: absolute;
+    
+left: 50%;
+    
+top: 15%;
+    
+transform: translate(-50%, -10%);
+    }
+    .search{
+    
+position: relative;
+    
+height: 100%;
+    
+margin-top: 20px;
+}
+.search input{        
+    height: 34px;        
+    position: absolute;        
+    border-radius: 50px;        
+    box-shadow: 2px 3px 5px 3px #00000042;
+}
+.search button{
+    
+position: absolute;
+    
+right: 10px;
+    
+top: -25%;
+    
+background: transparent;
+    
+border: none;
+    
+outline: none;
+    
+transform: translateY(25%);
+    
+color: #fb9a00a8;
+}
+
+
+
+
+.countrys{
+
+margin-top: -100px;
+}
+.countrys ul li img{
+
+}
+.countrys ul li p{
+    transition: .4s all ease-in-out;
+}
+.countrys ul li{
+    border: 1px solid transparent;
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    z-index: 1;
+    transition: .4s all ease-in-out;
+    box-shadow: 2px 3px 5px 3px #76727224;
+}
+.countrys ul li button{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+
+}
+.countrys ul li:hover{
+    border: 1px solid #fb9a00a8;
+    color: #fb9a00a8;
+    box-shadow: 3px 20px 40px 0 rgba(0,0,0,.1);
+}
+.countrys ul li:hover p{
+    color: #fb9a00a8;
+}
+.countrys ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+.title{
+
+text-align: center;
+
+padding: 10px 0px;
+
+margin: 20px 0px;
+}
+.title h1{
+
+font-size: 30px;
+
+font-weight: 500;
+
+font-family: serif;
+}
+.state{
+
+}
+.state h5{
+
+}
+.state ul li a{
+    margin-bottom: 5px;
+    transition: .5s all ease-in-out;
+}
+.state ul li a:hover{
+    color: #fb9a00a8;
+}
+.state ul li{
+
+}
+.state ul{
+    padding: 0;
+    list-style: none;
+}
+.state ul li button{
+    background: transparent;
+    border: none;
+    padding-bottom: 5px;
+    padding: 0px;
+    transition: .4s all ease-in-out;
+}
+.state ul li button i{
+    transition: .4s all ease-in-out;
+}
+.state ul li span{
+    display: block;
+    height: 1px;
+    width: 0%;
+    background: #ff6b25;
+    transition: .4s all ease-in-out;
+}
+.state ul li button:hover{    
+    color: #ff6b25;
+}
+.state ul li:hover span{  
+    width: 50%;
+}
+.state ul li button:hover i{
+    margin-left: 5px;
+    color: #ff6b25;
+}
+
+.all_cities{
+    height: 250px;
+    overflow: auto;
+    scrollbar-width: none;
+    margin: 0;
+}
+.all_cities::-webkit-scrollbar{
+    display: none;
+}
+.world_region{
+    
+display: flex;
+    
+margin-top: 50px;
+    
+justify-content: center;
+}
+.world_region p{
+
+margin: 0;
+
+border: 1px solid #b4aeae;
+
+color: #e08900b3;
+
+border-radius: 3px;
+
+margin: 0px 3px;
+
+padding: 0px 5px;
+
+background: #f1efef;
+
+margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:992px){
+    .countrys ul {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .bannar_video h1{
+        font-size: 45px;
+    }
+}
+@media(max-width: 768px){
+    .countrys ul {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+    }
+    .countrys ul li p {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+}
+@media(max-width: 576px){
+    .bannar_video h1 {
+        font-size: 35px;
+    }
+}
+@media(max-width: 426px){
+    .bannar_video h1 {
+        font-size: 30px;
+    }
+    .bannar_video .bnr_div {
+        width: 80%;
+    }
+    .bannar_video {
+        height: 55vh;
+    
+    }
+}
+
+@media(max-width: 376px){
+    .countrys ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
