@@ -24701,12 +24701,12 @@ HOME PAGE 15 START
 }
 @media (max-width: 575px) {
   .twm-home18-banner-section .row .twm-bnr-left-section .twm-bnr-title-large {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 36px;
   }
 }
 .twm-home18-banner-section .row .twm-bnr-left-section .twm-bnr-discription {
-  font-size: 18px;
+  font-size: 12px;
   margin-bottom: 30px;
 }
 .twm-home18-banner-section .row .twm-h-page-18-bnr-right-section {
@@ -24934,7 +24934,6 @@ HOME PAGE 15 START
   align-items: center;
   text-align: center;
   border-radius: 5px;
-  background: #ffa311;
   padding: 3px 0px;
   box-shadow: 2px 3px 5px 3px #6b696933;
   margin: 8px 5px;
@@ -24942,16 +24941,21 @@ HOME PAGE 15 START
   /* width: 196px !important; */
   min-width: 65px;
   /* height: 60px; */
-  padding: 8px 0px;
+  /* padding: 8px 0px;
   background-color: rgb(167, 189, 234);
-  background-image: linear-gradient(90deg, rgb(167, 189, 234) 0%, rgb(247, 192, 236) 100%);
+  background-image: linear-gradient(90deg, rgb(167, 189, 234) 0%, rgb(247, 192, 236) 100%); */
+  background: #cdcbcb;
+  transition: .4s all ease-in-out;
 }
+
+
 .before_scroll .page_btns a{
   color: #fff;
   font-size: 12px;
 }
 .before_scroll .page_btns a h6{
   color: #fff;
+  transition: .4s all ease-in-out;
 }
 .before_scroll .page_btns a img{
   width: 40%;
@@ -25001,12 +25005,14 @@ HOME PAGE 15 START
   align-items: center;
   text-align: center;
   border-radius: 5px;
-  background: #ffa311;
+  background: #cdcbcb;
   box-shadow: 2px 3px 5px 3px #6b696933;
   padding: 5px 8px;
   /* height: 10px; */
   margin: 0px 3px;
   margin-bottom: 5px;
+  min-width: 60px;
+  transition: .4s all ease-in-out;
 }
 .after_scroll .page_btns a{
   color: #fff;
@@ -25015,6 +25021,7 @@ HOME PAGE 15 START
 .after_scroll .page_btns a h6{
   color: #fff;
   margin: 0px;
+  transition: .4s all ease-in-out;
 }
 .after_scroll .page_btns a img{
   width: 40%;
@@ -25057,6 +25064,40 @@ HOME PAGE 15 START
     height: 60px;
   }
 } */
+.page_btns:hover{
+  background-image: linear-gradient(90deg, rgb(167, 189, 234) 0%, rgb(247, 192, 236) 100%);
+  animation: dnToup .4s linear;
+}
+@keyframes dnToup{
+  0%{
+    opacity: 0;
+    transform: translateY(15%)
+  };
+  100%{
+    opacity: 1;
+    transform: translateY(0%)
+  }
+}
+.page_btns:hover h6{
+  color: #000 !important;
+}
+ .page_btns.active{
+  background: #ffa311 ;
+  padding: 8px 0px;
+  background-color: rgb(167, 189, 234);
+  background-image: linear-gradient(90deg, rgb(167, 189, 234) 0%, rgb(247, 192, 236) 100%);
+}
+ .page_btns.active h6{
+  color: #000 !important;
+}
+
+
+
+
+
+
+
+
 .mobile_view{
   display: none !important;
 }
