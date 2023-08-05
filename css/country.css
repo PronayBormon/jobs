@@ -23,13 +23,15 @@
 }
 .bannar_video h1{
     
-color: #ff6b25;
+color: #fff;
     
 /* -webkit-text-fill-color: rgb(250 153 0 / 40%); */
     
 /* -webkit-text-stroke: 1px #ffffff42; */
     
 font-family: serif;
+    
+filter: drop-shadow(2px 4px 6px #000c);
     }
     .bannar_video .bnr_div{
     
@@ -266,10 +268,21 @@ margin-top: 10px;
         height: 55vh;
     
     }
+    .world_region p {
+        font-size: 10px;
+    }
+
 }
 
 @media(max-width: 376px){
     .countrys ul {
         grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .world_region p {
+        font-size: 8px;
+    }
+    .countrys {
+        margin-top: -70px;
     }
 }

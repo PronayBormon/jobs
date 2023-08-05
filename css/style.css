@@ -9550,7 +9550,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   }
 }
 .twm-advertisment .overlay {
-  background-color: #ff9c0075;
+  background-color: #00000075;
   opacity: 0.8;
   position: absolute;
   left: 0px;
@@ -25157,4 +25157,109 @@ HOME PAGE 15 START
   .header-style-3 .navbar-toggler {
     margin: 0 !important;
   }
+}
+
+
+/* ==================================== media query start here ================================== */
+@media(max-width: 426px){
+  .twm-bnr-search-bar .site-button {
+      font-size: 12px;
+  }
+  .v-noti-wrap .v-content .wt-title {
+      font-size: 14px;
+  }
+  .v-noti-wrap .v-content p {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  .twm-jobs-list-style1 p {
+    font-size: 12px;
+  }
+  .twm-jobs-list-style1 .twm-right-content .twm-jobs-amount {
+    font-size: 12px;
+  }
+  .twm-jobs-list-style1 .twm-right-content .twm-jobs-browse {
+    font-size: 13px;
+  }
+  .wt-small-separator {
+    color: #727d8f;
+    font-size: 14px;
+  }
+  .section-head.left.wt-small-separator-outer h2 {
+    font-size: 14px;
+  }
+  .counter-outer-two .tw-count-number {
+    font-size: 18px;
+  }
+  .pricing-table-1 .p-table-inner .p-table-price p {
+    font-size: 14px;
+
+  }
+  .pricing-table-1 .p-table-inner .p-table-price span {
+      font-size: 25px;
+  }
+  a {
+    font-size: 14px;
+  }
+  .twm-featured-city2 .twm-city-info .twm-city-jobs {
+    font-size: 12px;
+  }
+  .twm-blog-post-h5-outer .wt-post-info .wt-post-text p {
+    font-size: 12px;
+  }
+  .pricing-table-1 .p-table-inner .p-table-list ul li {
+    font-size: 13px;
+  }
+  .wt-separator-two-part.content-white .wt-small-separator {
+    color: #fff;
+    font-size: 12px;
+  }
+  .wt-bnr-inr {
+    height: 300px;
+  }
+  .wt-bnr-inr-entry .banner-title-outer .banner-title-name .wt-title {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  .twm-sidebar-ele-filter ul li {
+    font-size: 12px;
+  }
+  .tw-sidebar-tags-wrap .tagcloud a {
+    font-size: 10px;
+  }
+  .product-filter-wrap .woocommerce-result-count-left {
+    font-size: 14px;
+  }
+  .product-filter-wrap .twm-filter-select .woocommerce-result-count {
+    font-size: 12px;
+  }
+  .twm-explore-content .twm-title-large h2 {
+    font-size: 16px;
+  }
+  .job-categories-block-2 {
+    padding: 10px;
+  }
+  .job-categories-block-2 .twm-media {
+    margin: 0px auto 15px;
+  }
+
+  .cons-contact-form .form-control {
+    height: 40px;
+    padding: 0px 10px;
+  }
+  .tw-faq-section .tw-faq .accordion-item .accordion-button {
+    font-size: 14px;
+  }
+  .accordion-body {
+    padding: 1rem 1.25rem;
+    font-size: 12px;
+  }
+  .twm-blog-post-1-outer .wt-post-info .wt-post-text p {
+    font-size: 14px;
+  }
+
 }
