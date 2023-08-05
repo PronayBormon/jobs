@@ -201,8 +201,8 @@ margin-top: 50px;
     
 justify-content: center;
 }
-.world_region p{
-
+.world_region a{
+text-decoration: none;
 margin: 0;
 
 border: 1px solid #b4aeae;
