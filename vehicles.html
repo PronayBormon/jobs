@@ -84,7 +84,7 @@
                                 <a href="index.html" class=""><img src="images/cat_icons/Job.png" class="img-fluid" alt=""><h6>Jobs</h6></a>
                             </div>
                             <div class="page_btns active">
-                                <a href="vahicles.html" class=" "><img src="images/cat_icons/vahicles.png" class="img-fluid" alt=""><h6>Vahicles</h6></a>
+                                <a href="vehicles.html" class=" "><img src="images/cat_icons/vahicles.png" class="img-fluid" alt=""><h6>vehicles</h6></a>
                             </div>
                             <div class="page_btns">
                                 <a href="property.html" class=" "><img src="images/cat_icons/property1.png" class="img-fluid" alt=""><h6>Property</h6></a>
@@ -363,7 +363,7 @@
                 <div class="container">
                     <div class="row">
                         
-                        <div class="col-lg-4 col-md-12 rightSidebar">
+                        <div class="col-lg-4 col-md-12 rightSidebar tab_dis_hide">
 
                             <div class="side-bar">
 
@@ -591,11 +591,231 @@
 
                             </div>
 
+                            <div class="ft_section tab_show">
+                                <div class="row ">
+                                    <div class="col-4 mb-3 ">
+                                        <button type="button" id="filter" class="btn_filter" ><i class="fas fa-sliders-h"></i> Filters </button>
+                                        
+                                        <div class="full_filter" id="full_filter">
+                                            <div class="container-fluid">
+                                                <div class="side-bar scroll">
+                                                    <div class="row mb-3">
+                                                        <div class="col-6 ms-auto text-start">
+                                                            <button  class="bg-transparent " style="border:none; font-size: 20px;"><i class="fas fa-check"></i></button>
+                                                        </div>
+                                                        <div class="col-6 ms-auto text-end">
+                                                            <button id="filter_remove" class="bg-transparent text-end" style="border:none; font-size: 20px;"><i class="fas fa-times"></i></button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sidebar-elements search-bx">
+                                                                                                
+                                                        <form>
+                    
+                                                            <div class="form-group mb-4">
+                                                                <h4 class="section-head-small mb-4">Category</h4>
+                                                                <select class="wt-select-bar-large selectpicker"  data-live-search="true" data-bv-field="size">
+                                                                    <option>All Category</option>
+                                                                    <option>Web Designer</option>
+                                                                    <option>Developer</option>
+                                                                    <option>Acountant</option>
+                                                                </select>
+                                                            </div>
+                    
+                                                            <div class="form-group mb-4">
+                                                                <h4 class="section-head-small mb-4">Keyword</h4>
+                                                                <div class="input-group">
+                                                                    <input type="text" class="form-control" placeholder="Job Title or Keyword">
+                                                                    <button class="btn" type="button"><i class="feather-search"></i></button>
+                                                                </div>
+                                                            </div>
+                    
+                                                            <div class="form-group mb-4">
+                                                                <h4 class="section-head-small mb-4">Location</h4>
+                                                                <div class="input-group">
+                                                                    <input type="text" class="form-control" placeholder="Search location">
+                                                                    <button class="btn" type="button"><i class="feather-map-pin"></i></button>
+                                                                </div>
+                                                            </div>
+                    
+                                                            <div class="twm-sidebar-ele-filter">
+                                                                <h4 class="section-head-small mb-4">Job Type</h4>
+                                                                <ul>
+                                                                    <li>
+                                                                        <div class=" form-check">
+                                                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                                            <label class="form-check-label" for="exampleCheck1">Freelance</label>
+                                                                        </div>
+                                                                        <span class="twm-job-type-count">09</span>
+                                                                    </li>
+                    
+                                                                    <li>
+                                                                        <div class=" form-check">
+                                                                            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                                                                            <label class="form-check-label" for="exampleCheck2">Full Time</label>
+                                                                        </div>
+                                                                        <span class="twm-job-type-count">07</span>
+                                                                    </li>
+                    
+                                                                    <li>
+                                                                        <div class=" form-check">
+                                                                            <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                                                                            <label class="form-check-label" for="exampleCheck3">Internship</label>
+                                                                        </div>
+                                                                        <span class="twm-job-type-count">15</span>
+                                                                    </li>
+                    
+                                                                    <li>
+                                                                        <div class=" form-check">
+                                                                            <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                                                                            <label class="form-check-label" for="exampleCheck4">Part Time</label>
+                                                                        </div>
+                                                                        <span class="twm-job-type-count">20</span>
+                                                                    </li>
+                    
+                                                                    <li>
+                                                                        <div class=" form-check">
+                                                                            <input type="checkbox" class="form-check-input" id="exampleCheck5">
+                                                                            <label class="form-check-label" for="exampleCheck5">Temporary</label>
+                                                                        </div>
+                                                                        <span class="twm-job-type-count">22</span>
+                                                                    </li>
+                    
+                                                                    <li>
+                                                                        <div class=" form-check">
+                                                                            <input type="checkbox" class="form-check-input" id="exampleCheck6">
+                                                                            <label class="form-check-label" for="exampleCheck6">Volunteer</label>
+                                                                        </div>
+                                                                        <span class="twm-job-type-count">25</span>
+                                                                    </li>
+                    
+                                                                </ul>
+                                                            </div>
+                    
+                                                            <div class="twm-sidebar-ele-filter">
+                                                                <h4 class="section-head-small mb-4">Date Posts</h4>
+                                                                <ul>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="radio" class="form-check-input" id="exampleradio1">
+                                                                            <label class="form-check-label" for="exampleradio1">Last hour</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="radio" class="form-check-input" id="exampleradio2">
+                                                                            <label class="form-check-label" for="exampleradio2">Last 24 hours</label>
+                                                                        </div>
+                                                                    </li>
+                    
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="radio" class="form-check-input" id="exampleradio3">
+                                                                            <label class="form-check-label" for="exampleradio3">Last 7 days</label>
+                                                                        </div>
+                                                                    </li>
+                    
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="radio" class="form-check-input" id="exampleradio4">
+                                                                            <label class="form-check-label" for="exampleradio4">Last 14 days</label>
+                                                                        </div>
+                                                                    </li>
+                    
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="radio" class="form-check-input" id="exampleradio5">
+                                                                            <label class="form-check-label" for="exampleradio5">Last 30 days</label>
+                                                                        </div>
+                                                                    </li>
+                    
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="radio" class="form-check-input" id="exampleradio6">
+                                                                            <label class="form-check-label" for="exampleradio6">All</label>
+                                                                        </div>
+                                                                    </li>
+                                                 
+                                                                </ul>
+                                                            </div>
+                    
+                                                            <div class="twm-sidebar-ele-filter">
+                                                                <h4 class="section-head-small mb-4">Type of employment</h4>
+                                                                <ul>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="radio" class="form-check-input" id="Freelance1">
+                                                                            <label class="form-check-label" for="Freelance1">Freelance</label>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="radio" class="form-check-input" id="FullTime1">
+                                                                            <label class="form-check-label" for="FullTime1">Full Time</label>
+                                                                        </div>
+                                                                    </li>
+                    
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="radio" class="form-check-input" id="Intership1">
+                                                                            <label class="form-check-label" for="Intership1">Intership</label>
+                                                                        </div>
+                                                                    </li>
+                    
+                                                                    <li>
+                                                                        <div class="form-check">
+                                                                            <input type="radio" class="form-check-input" id="Part-Time1">
+                                                                            <label class="form-check-label" for="Part-Time1">Part Time</label>
+                                                                        </div>
+                                                                    </li>
+                                                 
+                                                                </ul>
+                                                            </div>
+                                                            
+                                                        </form>
+                                                        
+                                                    </div>
+                    
+                                                    <div class="widget tw-sidebar-tags-wrap">
+                                                        <h4 class="section-head-small mb-4">Tags</h4>
+                                                        
+                                                        <div class="tagcloud">
+                                                            <a href="job-list.html">General</a>
+                                                            <a href="job-list.html">Jobs </a>
+                                                            <a href="job-list.html">Payment</a>                                            
+                                                            <a href="job-list.html">Application </a>
+                                                            <a href="job-list.html">Work</a>
+                                                            <a href="job-list.html">Recruiting</a>
+                                                            <a href="job-list.html">Employer</a>
+                                                            <a href="job-list.html">Income</a>
+                                                            <a href="job-list.html">Tips</a>
+                                                        </div>
+                                                    </div>
+                    
+                                                    
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                        </div>
+            
+                                    </div>
+                                    
+                                    <div class="col-8 mb-3 filter_btn">
+                                        <a class="active" href="blog-grid.html" > All </a>
+                                        <a class="" href="blog-grid.html" >sub-Cat1 </a>
+                                        <a class="" href="blog-grid.html">sub-cat2</a>
+                                        <a class="" href="blog-grid.html">sub-cat3 </a>
+                                        <a class="" href="blog-grid.html">sub-cat4</a>
+                                        <a class="" href="blog-grid.html">sub-cat5</a>
+                                        <a class="" href="blog-grid.html">sub-cat6</a>
+                                    </div>
+                                </div>
+                            </div>
                             <!-- premium product  -->
                             <div class="twm-jobs-list-wrap">
                                 <div class="grid_sliders owl-carousel">
                                     <div class="product_grid">
-                                        <img src="images/ads/cars/cars(1).jpg" class="grid_img" alt="">
+                                        <img src="images/ads/property/property(7).jpg" class="img-fluid" alt="">
                                         <div class="pro_details_grid">
                                             <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, fuga.</a>
     
@@ -609,7 +829,7 @@
                                         </div>
                                     </div>
                                     <div class="product_grid">
-                                        <img src="images/ads/cars/cars(2).jpg" class="grid_img" alt="">
+                                        <img src="images/ads/property/property(6).jpg" class="img-fluid" alt="">
                                         <div class="pro_details_grid">
                                             <a href="items.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, fuga.</a>
     
@@ -628,28 +848,30 @@
                             <!--============ product list =============== -->
                             <div class="twm-jobs-list-wrap mt-4">
                                 <ul>
-                                    <!-- <li>
+                                    <li>
                                         <div class="row product_list_premium">
                                             <div class="col-4  pro_img_box">
-                                                <img src="images/add-bg.jpg" class="img-fluid" alt="">
+                                                <img src="images/ads/property/property(1).jpg" class="img-fluid" alt="">
                                             </div>
+                                            
                                             <div class="col-8  pro_details_box">
-                                                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, fuga.</h3>
+                                                <a href="items.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, fuga.</a>
 
                                                 <p>
-                                                    <span class="member">Member</span>
-                                                    <span class="star_member"><img src="images/banner/star.png" class="img-fluid" alt="">Member</span>
+                                                    <!-- <span class="member">Member</span>
+                                                    <span class="star_member"><img src="images/banner/star.png" class="img-fluid" alt="">Member</span> -->
                                                     <span class="varify_member"><img src="images/banner/varified.png" class="img-fluid" alt="">Varified Member</span>
                                                 </p>
                                                 <h4>Dhaka, Cars</h4>
                                                 <h2>TK 3,000</h2>
                                             </div>
+                                            
                                         </div>
-                                    </li> -->
+                                    </li>
                                     <li>
                                         <div class="row product_list_premium">
                                             <div class="col-4  pro_img_box">
-                                                <img src="images/ads/cars/cars(3).jpg" class="img-fluid" alt="">
+                                                <img src="images/ads/property/property(7).jpg" class="img-fluid" alt="">
                                             </div>
                                             <div class="col-8  pro_details_box">
                                                 <a href="items.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, fuga.</a>
@@ -667,25 +889,7 @@
                                     <li>
                                         <div class="row product_list_premium">
                                             <div class="col-4  pro_img_box">
-                                                <img src="images/ads/cars/cars(4).jpg" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="col-8  pro_details_box">
-                                                <a href="items.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, fuga.</a>
-
-                                                <p>
-                                                    <!-- <span class="member">Member</span>
-                                                    <span class="star_member"><img src="images/banner/star.png" class="img-fluid" alt="">Member</span> -->
-                                                    <span class="varify_member"><img src="images/banner/varified.png" class="img-fluid" alt="">Varified Member</span>
-                                                </p>
-                                                <h4>Dhaka, Cars</h4>
-                                                <h2>TK 3,000</h2>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="row product_list_premium">
-                                            <div class="col-4  pro_img_box">
-                                                <img src="images/ads/cars/cars(5).jpg" class="img-fluid" alt="">
+                                                <img src="images/ads/property/property(3).jpg" class="img-fluid" alt="">
                                             </div>
                                             <div class="col-8  pro_details_box">
                                                 <a href="items.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, fuga.</a>
@@ -703,7 +907,7 @@
                                     <li>
                                         <div class="row product_list_premium">
                                             <div class="col-4  pro_img_box">
-                                                <img src="images/ads/cars/cars(1).jpg" class="img-fluid" alt="">
+                                                <img src="images/ads/property/property(4).jpg" class="img-fluid" alt="">
                                             </div>
                                             <div class="col-8  pro_details_box">
                                                 <a href="items.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, fuga.</a>
@@ -1172,9 +1376,9 @@
             items:1,
             dots: false,
             margin:10,
-            autoplay:true,
-            autoplayTimeout:3000,
-            autoplayHoverPause:true
+            // autoplay:true,
+            // autoplayTimeout:3000,
+            // autoplayHoverPause:true
         });
     });
     
@@ -1183,11 +1387,37 @@
             loop: true,
             items:2,
             dots: false,
-            margin:10,
-            autoplay:true,
-            autoplayTimeout: 2000,
-            autoplayHoverPause:true
+            // margin:10,
+            // autoplay:true,
+            // autoplayTimeout: 2000,
+            // autoplayHoverPause:true,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                },
+                575:{
+                    items:1,
+                },
+                600:{
+                    items:2,
+                },
+                1000:{
+                    items:2,
+                }
+            }
         });
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#filter").click(function(){
+            $("#full_filter").addClass("active");
+        });
+        $("#filter_remove").click(function(){
+            $("#full_filter").removeClass("active");
+        });
+      
     });
 </script>
 
