@@ -194,30 +194,26 @@ font-family: serif;
     display: none;
 }
 .world_region{
-    
-display: flex;
-    
-margin-top: 50px;
-    
-justify-content: center;
+        
+    display: flex;
+        
+    margin-top: 50px;
+        
+    justify-content: center;
+    overflow: auto;
+    scrollbar-width: none;
+}
+.world_region::-webkit-scrollbar{
+    display: none;
 }
 .world_region a{
-text-decoration: none;
-margin: 0;
-
-border: 1px solid #b4aeae;
-
-color: #e08900b3;
-
-border-radius: 3px;
-
-margin: 0px 3px;
-
-padding: 0px 5px;
-
-background: #f1efef;
-
-margin-top: 10px;
+    text-decoration: none;
+    margin: 0;border: 1px solid #b4aeae;
+    color: #e08900b3;border-radius: 3px;
+    margin: 0px 3px;padding: 0px 5px;
+    background: #f1efef;
+    margin-top: 10px;
+    font-size: 12px;
 }
 
 
@@ -255,6 +251,9 @@ margin-top: 10px;
 @media(max-width: 576px){
     .bannar_video h1 {
         font-size: 35px;
+    }
+    .countrys ul li img {
+        width: 50px;
     }
 }
 @media(max-width: 426px){
