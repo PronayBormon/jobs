@@ -37,6 +37,8 @@
     <link rel="stylesheet" type="text/css" href="../css/flaticon.css"> <!-- Flaticon -->
     <link rel="stylesheet" type="text/css" href="../css/swiper-bundle.min.css"><!-- Swiper Slider -->
     <link rel="stylesheet" type="text/css" href="../css/style.css"><!-- MAIN STYLE SHEET -->
+    <!-- summer note  -->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
 
     <!-- THEME COLOR CHANGE STYLE SHEET -->
     <link rel="stylesheet" class="skin" type="text/css" href="../css/skins-type/skin-6.css">
@@ -82,13 +84,13 @@
                                 <a href="../jobs.html" class=""><img src="../images/cat_icons/Job.png" class="img-fluid" alt=""><h6>Jobs</h6></a>
                             </div>
                             <div class="page_btns">
-                                <a href="../vehicles.html" class=" "><img src="../images/cat_icons/vahicles.png" class="img-fluid" alt=""><h6>vehicles</h6></a>
+                                <a href="../item-list.html" class=" "><img src="../images/cat_icons/vahicles.png" class="img-fluid" alt=""><h6>vehicles</h6></a>
                             </div>
                             <div class="page_btns">
-                                <a href="../property.html" class=" "><img src="../images/cat_icons/property1.png" class="img-fluid" alt=""><h6>Property</h6></a>
+                                <a href="../item-list.html" class=" "><img src="../images/cat_icons/property1.png" class="img-fluid" alt=""><h6>Property</h6></a>
                             </div>
                             <div class="page_btns">
-                                <a href="../mobile.html" class=" "><img src="../images/cat_icons/mobile&tablate.png" class="img-fluid" alt=""><h6>Mobile</h6></a>
+                                <a href="../item-list.html" class=" "><img src="../images/cat_icons/mobile&tablate.png" class="img-fluid" alt=""><h6>Mobile</h6></a>
                             </div>
                             <div class="page_btns">
                                 <a href="../service.html" class=" "><img src="../images/cat_icons/service.png" class="img-fluid" alt=""><h6>Service</h6></a>
@@ -343,11 +345,17 @@
                                                             </div>
                                                         </div>
                                                     </div>  
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label>Overview: </label>
+                                                            <textarea class="form-control summernote" id="" rows="3"></textarea>
+                                                        </div>
+                                                    </div>
     
                                                     <div class="col-md-12">
                                                         <div class="form-group">
-                                                            <label>Description</label>
-                                                            <textarea class="form-control" rows="3"></textarea>
+                                                            <label>Details: </label>
+                                                            <textarea class="form-control summernote" id="" rows="3"></textarea>
                                                         </div>
                                                     </div>
     
@@ -355,7 +363,7 @@
                                                         <div class="form-group">
                                                             <label>Images </label>
                                                             <div class="ls-inputicon-box"> 
-                                                                <input class="form-control" name="" type="file" placeholder="">
+                                                                <input class="form-control " name="" type="file" placeholder="">
                                                                 <i class="fs-input-icon fa fa-globe-americas"></i>
                                                             </div>
                                                         </div>
@@ -800,6 +808,24 @@
 <script  src="../js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
 <script  src="../js/switcher.js"></script><!-- SHORTCODE FUCTIONS  -->
 <script src="../js/srollTochangeCSS.js"></script>  <!--Change css script-->
+<!-- summernote  -->
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+<script>
+    $('.summernote').summernote({
+      placeholder: 'Hello stand alone ui',
+      tabsize: 2,
+      height: 120,
+      toolbar: [
+        ['style', ['style']],
+        ['font', ['bold', 'underline', 'clear']],
+        ['color', ['color']],
+        ['para', ['ul', 'ol', 'paragraph']],
+        ['table', ['table']],
+        ['insert', ['link', 'picture', 'video']],
+        ['view', ['fullscreen', 'codeview', 'help']]
+      ]
+    });
+</script>
 
 </body>
 

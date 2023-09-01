@@ -25389,6 +25389,15 @@ HOME PAGE 15 START
   /* transition: 1s all ease-in-out; */
 
 }
+.full_filter .card{
+  height: 90vh;
+  overflow: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
 @keyframes show{
   0%{
     transform: translateY(50%);

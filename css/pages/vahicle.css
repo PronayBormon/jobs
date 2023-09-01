@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: none;
 }
 .ads_slider{
 
@@ -242,9 +241,14 @@ border-top-right-radius: 10px;
 object-fit: cover;
 
 max-height: 210px;
+
+border-top-left-radius: 5px;
+
+border-top-right-radius: 5px;
 }
 .pro_details_grid {
 
+padding: 10px;
 }
 .pro_details_grid .varify_member{
     display: flex;
@@ -280,7 +284,7 @@ overflow: hidden;
 
 display: -webkit-box;
 
--webkit-line-clamp: 2;
+-webkit-line-clamp: 1;
 
 line-clamp: 1;
 
