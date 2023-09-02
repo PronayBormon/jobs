@@ -18,7 +18,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
     
     <!-- PAGE TITLE HERE -->
-    <title>Jobzilla Template | Home Page Style 18</title>
+    <title>Jobs </title>
     
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,7 +39,6 @@
     <link rel="stylesheet" type="text/css" href="css/flaticon.css"> <!-- Flaticon -->
     <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css"><!-- Swiper Slider -->
     <link rel="stylesheet" type="text/css" href="css/style.css"><!-- MAIN STYLE SHEET -->
-    <link rel="stylesheet" href="css/country.css">
 
     <!-- THEME COLOR CHANGE STYLE SHEET -->
     <link rel="stylesheet" class="skin" type="text/css" href="css/skins-type/skin-10.css">
@@ -49,6 +48,7 @@
 </head>
 
 <body data-anm=".anm">
+    
     <!-- LOADING AREA START ===== -->
     <div class="loading-area">
         <div class="loading-box"></div>
@@ -62,1016 +62,987 @@
 
 	<div class="page-wraper">
 
-        
+        <!-- HEADER START -->
+        <header  class="site-header header-style-3 h-page-18-hdr mobile-sider-drawer-menu">
+            
+            <div class="sticky-header main-bar-wraper  navbar-expand-lg">
+                <div class="main-bar">  
 
-  
-    
+                    <div class="container-fluid sliders   clearfix my-2 d-flex justify-content-between align-items-center"> 
+
+                        <div class="logo-header me-3 tab_hide">
+                            <div class="logo-header-inner logo-header-one">
+                                <a href="country.html">
+                                <img src="images/skins-logo/logo-skin-10.png" alt="">
+                                </a>
+                            </div>
+                        </div>  
+
+                       
+                                              
+                        
+                        <!-- Header Right Section-->
+                        <div class="extra-nav header-2-nav">
+                            
+                            <!-- <div class="extra-cell"> -->
+                                <div class="header-search mobile_view search_div">
+                                    <form action="">
+                                        <input type="text " class="form-control" placeholder="Type to search">
+                                        <button type="button"><i class="feather-search"></i></button>
+                                    </form>
+                                </div>                                
+                            <!-- </div> -->
+                            <div class="extra-cell pc_view">
+                                <div class="header-search ">
+                                    <a href="#search" class="header-search-icon"><i class="feather-search"></i></a>
+                                </div>                                
+                            </div>
+                            <div class="extra-cell">
+                                <div class="header-nav-btn-section">
+                                    <div class="twm-nav-btn-left">
+                                        <a class="twm-nav-sign-up" data-bs-toggle="modal" href="#sign_up_popup" role="button">
+                                            <i class="feather-log-in"></i> Sign Up
+                                        </a>
+                                    </div>
+                                    <div class="twm-nav-btn-right">
+                                        <a href="admin/dash-post-job.html" class="twm-nav-post-a-job">
+                                            <i class="feather-briefcase"></i> Post a job
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> 
+                            <button id=""   type="button" class="navbar-toggler " data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar icon-bar-first"></span>
+                                <span class="icon-bar icon-bar-two"></span>
+                                <span class="icon-bar icon-bar-three"></span>
+                            </button> 
+                            
+                        </div> 
+                        
+
+                        
+                      
+
+                    </div>
+                                    
+                    <div class="container-fluid clearfix before_scroll justify-content-center"> 
+                
+                        
+                        
+                        <!-- NAV Toggle Button -->
+                        <div class="page_buttons ">
+                            <div class="page_btns active">
+                                <a href="jobs.html" class=""><img src="images/cat_icons/Job.png" class="img-fluid" alt=""><h6>Jobs</h6></a>
+                            </div>
+                            <div class="page_btns ">
+                                <a href="item-list.html" class=" "><img src="images/cat_icons/vahicles.png" class="img-fluid" alt=""><h6>vehicles</h6></a>
+                            </div>
+                            <div class="page_btns">
+                                <a href="item-list.html" class=" "><img src="images/cat_icons/property1.png" class="img-fluid" alt=""><h6>Property</h6></a>
+                            </div>
+                            <div class="page_btns">
+                                <a href="item-list.html" class=" "><img src="images/cat_icons/mobile&tablate.png" class="img-fluid" alt=""><h6>Mobile</h6></a>
+                            </div>
+                            <div class="page_btns">
+                                <a href="service.html" class=" "><img src="images/cat_icons/service.png" class="img-fluid" alt=""><h6>Service</h6></a>
+                            </div>
+                            <div class="page_btns">
+                                <a href="lottery.html" class=" "><img src="images/cat_icons/Lottery_icon.png" class="img-fluid" alt=""><h6>Lottery</h6></a>
+                            </div>
+                            <div class="page_btns">
+                                <a href="categories.html" class=" "><img src="images/cat_icons/More.png" class="img-fluid" alt=""><h6>More</h6></a>
+                            </div>
+                            
+                        </div>
+
+                        
+
+                    </div>    
+                
+                
+                </div>
+
+                <!-- SITE Search -->
+                <div id="search"> 
+                    <span class="close"></span>
+                    <form role="search" id="searchform" action="" method="get" class="radius-xl">
+                        <input class="form-control" value="" name="q" type="search" placeholder="Type to search"/>
+                        <span class="input-group-append">
+                            <button type="button" class="search-btn">
+                                <i class="fa fa-paper-plane"></i>
+                            </button>
+                        </span>
+                    </form>
+                </div> 
+                
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="images/logo-10.png" width="80px" alt=""></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <h5 class="widget-title">Important Links</h5>
+                    <ul style="list-style: none; margin-top: 5px; border-top: 1px solid #ededed; padding-top: 10px;">
+                        <li class=""><a href="about-1.html">About</a></li>
+                        <li class=""><a href="pricing.html">Pricing</a></li>
+                        <li class=""><a href="contact.html">Contact</a></li>
+                        <li class=""><a href="faq.html">FAQ</a></li>
+                        <li class=""><a href="blog.html">Blog</a></li>
+                    </ul>
+                    <!-- <h5 class="widget-title">Important Links</h5> -->
+                    <ul style="list-style: none; margin-top: 5px; border-top: 1px solid #ededed; padding-top: 10px;">
+                        <li><a href="login.html"><i class="fas fa-user"></i> Login</a></li>
+                        <li><a href="candidate/candidate-profile.html"><i class="fas fa-user"></i> Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </header>
+        <!-- HEADER END -->
+
         <!-- CONTENT START -->
-        <div class="page-content p-t-120">
+        <div class="page-content">
 
-            <div class="bannar_video" >
-                <div class="container">
-                    <video muted autoplay playsinline preload="yes" loop >
-                        <source src="videos/bannar_video.mp4">
-                    </video>
-                    <div class="row py-3">
-                        <div class="col-12" style="position: relative;">
-                            <!-- sidebar button  -->
-                            <button class="btn ms-auto" style="position: absolute; z-index: 99; right: 0;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                                <i class="fas fa-bars text-light " style="font-size: 25px;" ></i>
-                              </button>
+            <div class="twm-home18-banner-section">
 
-                              <!-- sidebar option  -->
-                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                                <div class="offcanvas-header">
-                                  <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="../images/logo-10.png" width="80px" alt=""></h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                </div>
-                                <div class="offcanvas-body">
-                                    <h5 class="widget-title">Important Links</h5>
-                                    <ul style="list-style: none; margin-top: 5px; border-top: 1px solid #ededed; padding-top: 10px;">
-                                        <li class=""><a href="../about-1.html">About</a></li>
-                                        <li class=""><a href="../pricing.html">Pricing</a></li>
-                                        <li class=""><a href="../contact.html">Contact</a></li>
-                                        <li class=""><a href="../faq.html">FAQ</a></li>
-                                        <li class=""><a href="../blog.html">Blog</a></li>
-                                    </ul>
-                                    <!-- <h5 class="widget-title">Important Links</h5> -->
-                                    <ul style="list-style: none; margin-top: 5px; border-top: 1px solid #ededed; padding-top: 10px;">
-                                        <li><a href="../login.html"><i class="fas fa-user"></i> Login</a></li>
-                                        <li><a href="../candidate/candidate-profile.html"><i class="fas fa-user"></i> Profile</a></li>
-                                    </ul>
-                                </div>
+                <div class="row"  style="background-image: url(images/home-18/banner/dot-map.png);">
+                    <!--Left Section-->
+                    
+                    <div class="col-xl-6 col-lg-6 col-md-12">
+                        <div class="twm-bnr-left-section">
+                            <div class="twm-bnr-title-small">We Have <span class="site-text-primary">208,000+</span> Live Jobs</div>
+                            <div class="twm-bnr-title-large">Find the <span class="site-text-primary">job</span> that fits your life</div>
+                            <div class="twm-bnr-discription">Type your keyword, then click search to find your perfect job.</div>
+
+                            <div class="twm-bnr-search-bar">
+                                <form>
+                                    <div class="row">
+                                        <!--Title-->
+                                        <div class="form-group col-xl-3 col-lg-6 col-md-6">
+                                            <label>What</label>
+                                            <select class="wt-search-bar-select selectpicker"  data-live-search="true" title="" id="j-Job_Title" data-bv-field="size">
+                                                <option disabled selected value="">Select Category</option>
+                                                <option selected>Job Title</option>
+                                                <option>Web Designer</option>
+                                                <option>Developer</option>
+                                                <option>Acountant</option>
+                                            </select>
+                                        </div>
+
+                                        <!--All Category-->
+                                        <div class="form-group col-xl-3 col-lg-6 col-md-6">
+                                            <label>Type</label>
+                                            <select class="wt-search-bar-select selectpicker"  data-live-search="true" title="" id="j-All_Category" data-bv-field="size">
+                                                <option disabled selected value="">Select Category</option>
+                                                <option selected>All Category</option>
+                                                <option>Web Designer</option>
+                                                <option>Developer</option>
+                                                <option>Acountant</option>
+                                            </select>
+                                        </div>
+
+                                        <!--Location-->
+                                        <div class="form-group col-xl-3 col-lg-6 col-md-6">
+                                            <label>Location</label>
+                                            <div class="twm-inputicon-box">
+                                                <input name="username" type="text" required class="form-control" placeholder="Search...">
+                                                <i class="twm-input-icon fas fa-map-marker-alt"></i>
+                                            </div>
+                                        </div>
+
+                                        <!--Find job btn-->
+                                        <div class="form-group col-xl-3 col-lg-6 col-md-6">
+                                            <button type="button" class="site-button">Find Job</button>
+                                        </div>
+
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="twm-bnr-popular-search">
+                                <span class="twm-title">Popular Searches:</span>
+                                <a href="job-list.html">Developer</a> ,
+                                <a href="job-list.html">Designer</a> ,
+                                <a href="job-list.html">Architect</a> ,
+                                <a href="job-list.html">Engineer</a> ...
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-10 col-12 m-auto text-center">
-                            <div class="bnr_div">
-                                <h1>Welcome to the World's #1 online Jobs website!</h1>
-                                <div class="row">
-                                    <div class="col-lg-8 col-md-12 col-12 m-auto">
-                                        <div class="search ">
-                                            <input type="text" class="form-control" placeholder="Search Your Country">
-                                            <button type="button"><i class="fas fa-search"></i></button>
-                                            
+
+                    <!--right Section-->
+                    <div class="col-xl-6 col-lg-6 col-md-12">
+                        <div class="twm-h-page-18-bnr-right-section">
+                            <div class="twm-h-page18-bnr-pic">
+                                <img src="images/home-18/banner/bnr-pic.png" alt="#">
+                            </div>
+
+                            <div class="twm-h-page-18-bnr-noti">
+                                <!-- Swiper -->
+                                <div class="swiper v-notiinfoSwiper v-noti-slider-h-page-18">
+                                    <div class="swiper-wrapper">
+                                        <!--SLide 1-->
+                                        <div class="swiper-slide">
+                                            <div class="v-noti-wrap">
+                                                <div class="v-media">
+                                                    <i class="far fa-check-circle twm-bg-purple"></i>
+                                                </div>
+                                                <div class="v-content">
+                                                    <h4 class="wt-title">Congratulations</h4>
+                                                    <p>Your admission successfully completed</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <div class="world_region">
-                                                    <a href="#">Aisa</a> <a href="#">Africa</a> <a href="#">Europe</a><a href="#">America</a><a href="#">Antarctica</a><a href="#">Australia</a>
+                                        <!--SLide 2-->
+                                        <div class="swiper-slide">
+                                            <div class="v-noti-wrap">
+                                                <div class="v-media">
+                                                    <i class="far fa-envelope twm-bg-green"></i>
+                                                </div>
+                                                <div class="v-content">
+                                                    <h4 class="wt-title">Congrats</h4>
+                                                    <p>Your have got an Email</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <!--Samll Ring Left-->
+                            <div class="twm-shape-l bounce"></div>
+                            <div class="twm-shape-2 bounce2"></div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+
+            <!-- TOP COMPANIES START -->
+            <div class="section-full p-t120  site-bg-white twm-companies-wrap">
+                  
+                <!-- TITLE START-->
+                <div class="section-head center wt-small-separator-outer">
+                    <div class="wt-small-separator site-text-primary">
+                       <div>Top Companies</div>                                
+                    </div>
+                    <h2 class="wt-title">Get hired in top companies</h2>
+                </div>                  
+                <!-- TITLE END-->
+
+                <div class="container">
+                    <div class="section-content">
+                        <div class="owl-carousel home-client-carousel2 owl-btn-vertical-center">
+                        
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo client-logo-media">
+                                    <a href="employer-list.html"><img src="images/client-logo/w1.png" alt=""></a></div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo client-logo-media">
+                                    <a href="employer-list.html"><img src="images/client-logo/w2.png" alt=""></a></div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo client-logo-media">
+                                    <a href="employer-list.html"><img src="images/client-logo/w3.png" alt=""></a></div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo client-logo-media">
+                                    <a href="employer-list.html"><img src="images/client-logo/w4.png" alt=""></a></div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo client-logo-media">
+                                    <a href="employer-list.html"><img src="images/client-logo/w5.png" alt=""></a></div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo client-logo-media">
+                                    <a href="employer-list.html"><img src="images/client-logo/w6.png" alt=""></a></div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo client-logo-media">
+                                    <a href="employer-list.html"><img src="images/client-logo/w1.png" alt=""></a></div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo client-logo-media">
+                                    <a href="employer-list.html"><img src="images/client-logo/w2.png" alt=""></a></div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo client-logo-media">
+                                    <a href="employer-list.html"><img src="images/client-logo/w3.png" alt=""></a></div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="ow-client-logo">
+                                    <div class="client-logo client-logo-media">
+                                    <a href="employer-list.html"><img src="images/client-logo/w5.png" alt=""></a></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="twm-company-approch-outer">
+                    <div class="twm-company-approch">
+                        <div class="row">
+
+                            <!--block 1-->
+                            <div class="col-lg-4 col-md-12">
+                                <div class="counter-outer-two">
+                                    <div class="icon-content">
+                                        <div class="tw-count-number text-clr-sky">
+                                            <span class="counter">5</span>M+</div>
+                                        <p class="icon-content-info">Million daily active users</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--block 2-->
+                            <div class="col-lg-4 col-md-12">
+                                <div class="counter-outer-two">
+                                    <div class="icon-content">
+                                        <div class="tw-count-number text-clr-pink">
+                                            <span class="counter">9</span>K+</div>
+                                        <p class="icon-content-info">Open job positions</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--block 3-->
+                            <div class="col-lg-4 col-md-12">
+                                <div class="counter-outer-two">
+                                    <div class="icon-content">
+                                        <div class="tw-count-number text-clr-green">
+                                            <span class="counter">2</span>M+</div>
+                                        <p class="icon-content-info">Million stories shared</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+               
+            
+        </div>
+        <!-- TOP COMPANIES END -->
+
+        <!-- JOB POST START -->
+        <div class="section-full p-t120 p-b90 site-bg-light-purple twm-bg-ring-wrap">
+            <div class="twm-bg-ring-right"></div>
+            <div class="twm-bg-ring-left"></div>
+            <div class="container">
+               
+                <!-- TITLE START-->
+                <div class="section-head center wt-small-separator-outer">
+                    <div class="wt-small-separator site-text-primary">
+                       <div>All Jobs Post</div>                                
+                    </div>
+                    <h2 class="wt-title">Find Your Career You Deserve it</h2>
+                </div>                  
+                <!-- TITLE END-->
+
+
+                <div class="section-content">
+                   <div class="twm-jobs-list-wrap">
+                       <ul>
+                            <li>
+                                <div class="twm-jobs-list-style1 mb-5">
+                                    <div class="twm-media">
+                                        <img src="images/jobs-company/pic1.jpg" alt="#">
+                                    </div>
+                                    <div class="twm-mid-content">
+                                        <a href="job-detail.html" class="twm-job-title">
+                                            <h4>Senior Web Designer , Developer  <span class="twm-job-post-duration">/ 1 days ago</span></h4>
+                                        </a>
+                                        <p class="twm-job-address">1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                                        <a href="https://themeforest.net/user/thewebmax/portfolio" class="twm-job-websites site-text-primary">https://thewebmax.com</a>
+                                    </div>
+                                    <div class="twm-right-content">
+                                        <div class="twm-jobs-category green"><span class="twm-bg-green">New</span></div>
+                                        <div class="twm-jobs-amount">$2500 <span>/ Month</span></div>
+                                        <a href="job-detail.html" class="twm-jobs-browse site-text-primary">Browse Job</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="twm-jobs-list-style1 mb-5">
+                                    <div class="twm-media">
+                                        <img src="images/jobs-company/pic2.jpg" alt="#">
+                                    </div>
+                                    <div class="twm-mid-content">
+                                        <a href="job-detail.html" class="twm-job-title">
+                                            <h4>Need Senior Rolling Stock Technician<span class="twm-job-post-duration">/ 15 days ago</span></h4>
+                                        </a>
+                                        <p class="twm-job-address">1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                                        <a href="https://themeforest.net/user/thewebmax/portfolio" class="twm-job-websites site-text-primary">https://thewebmax.com</a>
+                                    </div>
+                                    <div class="twm-right-content">
+                                        <div class="twm-jobs-category green"><span class="twm-bg-brown">Intership</span></div>
+                                        <div class="twm-jobs-amount">$2000<span>/ Month</span></div>
+                                        <a href="job-detail.html" class="twm-jobs-browse site-text-primary">Browse Job</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="twm-jobs-list-style1 mb-5">
+                                    <div class="twm-media">
+                                        <img src="images/jobs-company/pic3.jpg" alt="#">
+                                    </div>
+                                    <div class="twm-mid-content">
+                                        <a href="job-detail.html" class="twm-job-title">
+                                            <h4 class="twm-job-title">IT Department Manager & Blogger-Entrepenour  <span class="twm-job-post-duration">/ 6 Month ago</span></h4>
+                                        </a>
+                                        <p class="twm-job-address">1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                                        <a href="https://themeforest.net/user/thewebmax/portfolio" class="twm-job-websites site-text-primary">https://thewebmax.com</a>
+                                    </div>
+                                    <div class="twm-right-content">
+                                        <div class="twm-jobs-category green"><span class="twm-bg-purple">Fulltime</span></div>
+                                        <div class="twm-jobs-amount">$1500 <span>/ Month</span></div>
+                                        <a href="job-detail.html" class="twm-jobs-browse site-text-primary">Browse Job</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="twm-jobs-list-style1 mb-5">
+                                    <div class="twm-media">
+                                        <img src="images/jobs-company/pic4.jpg" alt="#">
+                                    </div>
+                                    <div class="twm-mid-content">
+                                        <a href="job-detail.html" class="twm-job-title">
+                                            <h4 class="twm-job-title">Art Production Specialist   <span class="twm-job-post-duration">/ 2 days ago</span></h4>
+                                        </a>
+                                        <p class="twm-job-address">1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                                        <a href="https://themeforest.net/user/thewebmax/portfolio" class="twm-job-websites site-text-primary">https://thewebmax.com</a>
+                                    </div>
+                                    <div class="twm-right-content">
+                                        <div class="twm-jobs-category green"><span class="twm-bg-sky">Freelancer</span></div>
+                                        <div class="twm-jobs-amount">$1200<span>/ Month</span></div>
+                                        <a href="job-detail.html" class="twm-jobs-browse site-text-primary">Browse Job</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="twm-jobs-list-style1 mb-5">
+                                    <div class="twm-media">
+                                        <img src="images/jobs-company/pic5.jpg" alt="#">
+                                    </div>
+                                    <div class="twm-mid-content">
+                                        <a href="job-detail.html" class="twm-job-title">
+                                            <h4 class="twm-job-title">Recreation & Fitness Worker   <span class="twm-job-post-duration">/ 1 days ago</span></h4>
+                                        </a>
+                                        <p class="twm-job-address">1363-1385 Sunset Blvd Los Angeles, CA 90026, USA</p>
+                                        <a href="https://themeforest.net/user/thewebmax/portfolio" class="twm-job-websites site-text-primary">https://thewebmax.com</a>
+                                    </div>
+                                    <div class="twm-right-content">
+                                        <div class="twm-jobs-category green"><span class="twm-bg-golden">Temporary</span></div>
+                                        <div class="twm-jobs-amount">$1700 <span>/ Month</span></div>
+                                        <a href="job-detail.html" class="twm-jobs-browse site-text-primary">Browse Job</a>
+                                    </div>
+                                </div>
+                            </li>
+                       </ul>
+                       <div class="text-center m-b30">
+                            <a href="job-list.html" class=" site-button">Browse All Jobs</a>
+                       </div>
+                   </div>
+                </div>
+               
+            </div>
+        </div>
+        <!-- JOB POST END -->
+
+
+        <!-- PRICING TABLE SECTION START -->
+        <div class="section-full p-t120 p-b90 site-bg-white tw-pricing-area">
+                
+            <div class="container">
+                
+                <!-- TITLE START-->
+                <div class="section-head left wt-small-separator-outer">
+                    <div class="wt-small-separator site-text-primary">
+                        <div>Choose Your Plan</div>                                
+                    </div>
+                    <h2 class="wt-title">Save up to 10%</h2>
+                </div>                  
+                <!-- TITLE END-->
+                        
+                <div class="section-content">
+
+                    <div class="twm-tabs-style-1">
+                      <ul class="nav nav-tabs" id="myTab3" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="Monthly" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" >Monthly</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="annual" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile">Annual</button>
+                        </li>
+                       
+                      </ul>
+                      <div class="tab-content" id="myTab3Content">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="Monthly">
+                            <div class="pricing-block-outer">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-4 col-md-6 m-b30">
+                                        <div class="pricing-table-1">
+                                            <div class="p-table-title">
+                                                <h4 class="wt-title">
+                                                    Basic
+                                                </h4>
+                                            </div>
+                                            <div class="p-table-inner">
+                                                <div class="p-table-price">
+                                                    <span>$90/</span>
+                                                    <p>Monthly</p>
+                                                </div>
+                                                <div class="p-table-list">
+                                                    <ul>
+                                                        <li><i class="feather-check"></i>1 job posting</li>
+                                                        <li class="disable"><i class="feather-x"></i>0 featured job</li>
+                                                        <li class="disable"><i class="feather-x"></i>job displayed fo 20 days</li>
+                                                        <li class="disable"><i class="feather-x"></i>Premium support 24/7</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="p-table-btn">
+                                                    <a href="about-1.html" class="site-button">Purchase Now</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+    
+                                    <div class="col-lg-4 col-md-6 p-table-highlight m-b30">
+                                        <div class="pricing-table-1 circle-yellow">
+                                            <div class="p-table-recommended">Recommended</div>
+                                            <div class="p-table-title">
+                                                <h4 class="wt-title">
+                                                    Standard
+                                                </h4>
+                                            </div>
+                                            <div class="p-table-inner">
+                                               
+                                                <div class="p-table-price">
+                                                    <span>$248/</span>
+                                                    <p>Monthly</p>
+                                                </div>
+                                                <div class="p-table-list">
+                                                    <ul>
+                                                        <li><i class="feather-check"></i>1 job posting</li>
+                                                        <li><i class="feather-check"></i>0 featured job</li>
+                                                        <li><i class="feather-check"></i>job displayed fo 20 days</li>
+                                                        <li class="disable"><i class="feather-x"></i>Premium support 24/7</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="p-table-btn">
+                                                    <a href="about-1.html" class="site-button">Purchase Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 m-b30">
+                                        <div class="pricing-table-1 circle-pink">
+                                            <div class="p-table-title">
+                                                <h4 class="wt-title">
+                                                    Extended
+                                                </h4>
+                                            </div>
+                                            <div class="p-table-inner">
+                                                <div class="p-table-price">
+                                                    <span>$499/</span>
+                                                    <p>Monthly</p>
+                                                </div>
+                                                <div class="p-table-list">
+                                                    <ul>
+                                                        <li><i class="feather-check"></i>1 job posting</li>
+                                                        <li><i class="feather-check"></i>0 featured job</li>
+                                                        <li><i class="feather-check"></i>job displayed fo 20 days</li>
+                                                        <li><i class="feather-check"></i>Premium support 24/7</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="p-table-btn">
+                                                    <a href="about-1.html" class="site-button">Purchase Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                                
+    
                                 </div>
-                               
-
                             </div>
                         </div>
-                    </div>
-                </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="annual">
+                            <div class="pricing-block-outer">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-4 col-md-6 m-b30">
+                                        <div class="pricing-table-1">
+                                            <div class="p-table-title">
+                                                <h4 class="wt-title">
+                                                    Basic
+                                                </h4>
+                                            </div>
+                                            <div class="p-table-inner">
+                                                <div class="p-table-price">
+                                                    <span>$149/</span>
+                                                    <p>Monthly</p>
+                                                </div>
+                                                <div class="p-table-list">
+                                                    <ul>
+                                                        <li><i class="feather-check"></i>1 job posting</li>
+                                                        <li class="disable"><i class="feather-x"></i>0 featured job</li>
+                                                        <li class="disable"><i class="feather-x"></i>job displayed fo 20 days</li>
+                                                        <li class="disable"><i class="feather-x"></i>Premium support 24/7</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="p-table-btn">
+                                                    <a href="about-1.html" class="site-button">Purchase Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-lg-4 col-md-6 p-table-highlight m-b30">
+                                        <div class="pricing-table-1 circle-yellow">
+                                            <div class="p-table-recommended">Recommended</div>
+                                            <div class="p-table-title">
+                                                <h4 class="wt-title">
+                                                    Standard
+                                                </h4>
+                                            </div>
+                                            <div class="p-table-inner">
+                                               
+                                                <div class="p-table-price">
+                                                    <span>$499/</span>
+                                                    <p>Monthly</p>
+                                                </div>
+                                                <div class="p-table-list">
+                                                    <ul>
+                                                        <li><i class="feather-check"></i>1 job posting</li>
+                                                        <li><i class="feather-check"></i>0 featured job</li>
+                                                        <li><i class="feather-check"></i>job displayed fo 20 days</li>
+                                                        <li class="disable"><i class="feather-x"></i>Premium support 24/7</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="p-table-btn">
+                                                    <a href="about-1.html" class="site-button">Purchase Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 m-b30">
+                                        <div class="pricing-table-1 circle-pink">
+                                            <div class="p-table-title">
+                                                <h4 class="wt-title">
+                                                    Extended
+                                                </h4>
+                                            </div>
+                                            <div class="p-table-inner">
+                                                <div class="p-table-price">
+                                                    <span>$1499/</span>
+                                                    <p>Monthly</p>
+                                                </div>
+                                                <div class="p-table-list">
+                                                    <ul>
+                                                        <li><i class="feather-check"></i>1 job posting</li>
+                                                        <li><i class="feather-check"></i>0 featured job</li>
+                                                        <li><i class="feather-check"></i>job displayed fo 20 days</li>
+                                                        <li><i class="feather-check"></i>Premium support 24/7</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="p-table-btn">
+                                                    <a href="about-1.html" class="site-button">Purchase Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                                
+    
+                                </div>
+                            </div>
+                        </div>
+                        
+                      </div>
+                    </div>   
+
+
+                    
+                </div>      
+                    
             </div>
+        </div>   
+        <!-- PRICING TABLE SECTION END --> 
+
+
+        <!-- FEATURED Cities SECTION START -->
+        <div class="section-full p-t120 pos-relative site-bg-white twm-featured-city-area">
+            <div class="twm-bg-section-box"></div>
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="countrys">
-                            <ul>
-                                <li>
-                                    <a href="#city" type="button">
-                                        <img src="images/flags/bangladesh-emoji-96.png" class="img-fluid" alt="">
-                                        <p>Bangladesh</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#city" type="button">
-                                        <img src="images/flags/aland-islands-emoji-96.png" class="img-fluid" alt="">
-                                        <p>Aland-islands</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#city" type="button">
-                                        <img src="images/flags/albania-96.png" class="img-fluid" alt="">
-                                        <p>Albania</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#city" type="button">
-                                        <img src="images/flags/algeria-emoji-96.png" class="img-fluid" alt="">
-                                        <p>Algeria</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#city" type="button">
-                                        <img src="images/flags/american-samoa-emoji-96.png" class="img-fluid" alt="">
-                                        <p>American Samoa</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#city" type="button">
-                                        <img src="images/flags/andorra-emoji-96.png" class="img-fluid" alt="">
-                                        <p>Andorra</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#city" type="button">
-                                        <img src="images/flags/afghanistan-emoji-96.png" class="img-fluid" alt="">
-                                        <p>Afghanistan</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#city" type="button">
-                                        <img src="images/flags/afghanistan-emoji-96.png" class="img-fluid" alt="">
-                                        <p>Afghanistan</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#city" type="button">
-                                        <img src="images/flags/afghanistan-emoji-96.png" class="img-fluid" alt="">
-                                        <p>Afghanistan</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#city" type="button">
-                                        <img src="images/flags/afghanistan-emoji-96.png" class="img-fluid" alt="">
-                                        <p>Afghanistan</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#city" type="button">
-                                        <img src="images/flags/afghanistan-emoji-96.png" class="img-fluid" alt="">
-                                        <p>Afghanistan</p>
-                                    </a>
-                                </li>
-                                <li href="#city" type="button">
-                                    <a href="#city" type="button">
-                                        <img src="images/flags/afghanistan-emoji-96.png" class="img-fluid" alt="">
-                                        <p>Afghanistan</p>
-                                    </a>
-                                </li>
-                                
-                            </ul>
-                            <div class="row mb-3">
-                                <div class="col-6 m-auto text-center">
-                                    <button type="button " class="site-button">Load more</button>
+
+                <!-- TITLE START-->
+                <div class="wt-separator-two-part content-white">
+                    <div class="row wt-separator-two-part-row">
+                        <div class="col-xl-5 col-lg-5 col-md-12 wt-separator-two-part-left">
+                            <!-- TITLE START-->
+                            <div class="section-head left wt-small-separator-outer">
+                                <div class="wt-small-separator site-text-primary">
+                                    <div>Jobs by location</div>                                
+                                </div>
+                                <h2 class="wt-title">Find your favourite jobs and get.</h2>
+                            </div>                  
+                            <!-- TITLE END-->
+                        </div>
+                        <div class="col-xl-7 col-lg-7 col-md-12 wt-separator-two-part-right text-right">
+                            <a href="job-list.html" class=" site-button white">View All Locations</a>
+                        </div>
+                    </div>
+                </div>                
+                <!-- TITLE END-->
+
+                <div class="twm-featured-city2-section">
+                    <div class="row">
+
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="twm-featured-city2">
+                                <div class="twm-media" style="background-image:url(images/home-5/featured-cities/city1.jpg);">
+                                </div>
+                                <div class="twm-city-info">
+                                    <h4 class="twm-title"><a href="job-list.html">London, England</a></h4>
+                                    <div class="twm-city-jobs">125 Jobs</div>
                                 </div>
                             </div>
                         </div>
+                        
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="twm-featured-city2">
+                                <div class="twm-media" style="background-image:url(images/home-5/featured-cities/city2.jpg);">
+                                </div>
+                                <div class="twm-city-info">
+                                    <h4 class="twm-title"><a href="job-list.html">Paris, France</a></h4>
+                                    <div class="twm-city-jobs">260 Jobs</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-5 col-lg-4 col-md-6">
+                            <div class="twm-featured-city2">
+                                <div class="twm-media" style="background-image:url(images/home-5/featured-cities/city3.jpg);">
+                                </div>
+                                <div class="twm-city-info">
+                                    <h4 class="twm-title"><a href="job-list.html">New York, USA</a></h4>
+                                    <div class="twm-city-jobs">300 Jobs</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="twm-featured-city2">
+                                <div class="twm-media" style="background-image:url(images/home-5/featured-cities/city4.jpg);">
+                                </div>
+                                <div class="twm-city-info">
+                                    <h4 class="twm-title"><a href="job-list.html">Bankok, Thailand</a></h4>
+                                    <div class="twm-city-jobs">2k Jobs</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-5 col-lg-4 col-md-6">
+                            <div class="twm-featured-city2">
+                                <div class="twm-media" style="background-image:url(images/home-5/featured-cities/city5.jpg);">
+                                </div>
+                                <div class="twm-city-info">
+                                    <h4 class="twm-title"><a href="job-list.html">Helsinki , Finland</a></h4>
+                                    <div class="twm-city-jobs">1.5k Jobs</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="twm-featured-city2">
+                                <div class="twm-media" style="background-image:url(images/home-5/featured-cities/city6.jpg);">
+                                </div>
+                                <div class="twm-city-info">
+                                    <h4 class="twm-title"><a href="job-list.html">Berlin, Germany</a></h4>
+                                    <div class="twm-city-jobs">700 Jobs</div>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+
                     </div>
-                </div>
+                </div>                  
             </div>
 
-            <div class="container" id="city">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="title">
-                            <h1>Select Your City </h1>
+        </div>   
+        <!-- FEATURED SECTION END -->
+
+        <!-- OUR BLOG START -->
+        <div class="section-full p-t120 p-b90 site-bg-white">
+            <div class="container">
+               
+                <!-- TITLE START-->
+                <div class="section-head center wt-small-separator-outer">
+                    <div class="wt-small-separator site-text-primary">
+                       <div>News and Blogs</div>                                
+                    </div>
+                    <h2 class="wt-title">Get the latest news,
+                        updates and tips</h2>
+                    
+                </div>                  
+                <!-- TITLE END-->
+
+
+                <div class="section-content">
+                    <div class="twm-blog-post-h5-wrap">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <!--Block one-->
+                                <div class="blog-post twm-blog-post-h5-outer">
+                                    <div class="wt-post-media">
+                                        <a href="blog-single.html"><img src="images/home-5/blog/pic1.jpg" alt=""></a>
+                                    </div>                                    
+                                    <div class="wt-post-info">
+                                        <div class="post-author">
+                                            <div class="post-author-pic">
+                                                <div class="p-a-pic"><img src="images/home-5/blog-avtar/pic1.jpg" alt=""></div>
+                                                <div class="p-a-info">
+                                                    <a href="blog-single.html">Ralph Johnson</a> 
+                                                    <p>12 January</p>
+                                                </div>
+                                            </div>
+                                            <div class="post-categories">
+                                                <a href="blog-single.html">Events</a>
+                                            </div> 
+                                        </div>
+                                        <div class="wt-post-title ">
+                                            <h4 class="post-title">
+                                                <a href="blog-single.html">How to convince recruiters and get your dream job</a>
+                                            </h4>
+                                        </div>
+                                        <div class="wt-post-text ">
+                                            <p>
+                                                New chip traps clusters of migrating tumor cells asperiortenetur, blanditiis odit.
+                                            </p>
+                                        </div>
+                                        <div class="wt-post-readmore ">
+                                            <a href="blog-single.html" class="site-button-link site-text-primary">Read More</a>
+                                        </div>                                        
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <!--Block two-->
+                                <div class="blog-post twm-blog-post-h5-outer">
+                                    <div class="wt-post-media">
+                                        <a href="blog-single.html"><img src="images/home-5/blog/pic2.jpg" alt=""></a>
+                                    </div>                                    
+                                    <div class="wt-post-info">
+                                        <div class="post-author">
+                                            <div class="post-author-pic">
+                                                <div class="p-a-pic"><img src="images/home-5/blog-avtar/pic2.jpg" alt=""></div>
+                                                <div class="p-a-info">
+                                                    <a href="blog-single.html">Christina Fischer</a> 
+                                                    <p>12 January</p>
+                                                </div>
+                                            </div>
+                                            <div class="post-categories">
+                                                <a href="blog-single.html">Events</a>
+                                            </div> 
+                                        </div>
+                                        <div class="wt-post-title ">
+                                            <h4 class="post-title">
+                                                <a href="blog-single.html">How to convince recruiters and get your dream job</a>
+                                            </h4>
+                                        </div>
+                                        <div class="wt-post-text ">
+                                            <p>
+                                                New chip traps clusters of migrating tumor cells asperiortenetur, blanditiis odit.
+                                            </p>
+                                        </div>
+                                        <div class="wt-post-readmore ">
+                                            <a href="blog-single.html" class="site-button-link site-text-primary">Read More</a>
+                                        </div>                                        
+                                    </div>                                
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6">
+                                <!--Block three-->
+                                <div class="blog-post twm-blog-post-h5-outer">
+                                    <div class="wt-post-media">
+                                        <a href="blog-single.html"><img src="images/home-5/blog/pic3.jpg" alt=""></a>
+                                    </div>                                    
+                                    <div class="wt-post-info">
+                                        <div class="post-author">
+                                            <div class="post-author-pic">
+                                                <div class="p-a-pic"><img src="images/home-5/blog-avtar/pic3.jpg" alt=""></div>
+                                                <div class="p-a-info">
+                                                    <a href="blog-single.html">Peter Hawkins</a> 
+                                                    <p>12 January</p>
+                                                </div>
+                                            </div>
+                                            <div class="post-categories">
+                                                <a href="blog-single.html">Events</a>
+                                            </div> 
+                                        </div>
+                                        <div class="wt-post-title ">
+                                            <h4 class="post-title">
+                                                <a href="blog-single.html">How to convince recruiters and get your dream job</a>
+                                            </h4>
+                                        </div>
+                                        <div class="wt-post-text ">
+                                            <p>
+                                                New chip traps clusters of migrating tumor cells asperiortenetur, blanditiis odit.
+                                            </p>
+                                        </div>
+                                        <div class="wt-post-readmore ">
+                                            <a href="blog-single.html" class="site-button-link site-text-primary">Read More</a>
+                                        </div>                                        
+                                    </div>                                
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="state">
-                            <h5>Dhaka</h5>
-                            <ul>
-                                <li>
-                                    <a href="jobs.html">Mohakhali</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Gulshan</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banani</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Uttar</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banasree</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Badda</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Malibag</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Mirpur</a>
-                                </li>
-                                <li>
-                                    <button type="button"  data-bs-toggle="modal" data-bs-target="#Dhaka" > See all <i class="fas fa-long-arrow-alt-right"></i></button>
-                                    <span></span>
-                                </li>
-                            </ul>
-                            <!-- Modal -->
-                            <div class="modal fade" id="Dhaka" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="DhakaLabel">Select Your Cities</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                    
-                                        <ul class="all_cities">
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="state">
-                            <h5>Dhaka</h5>
-                            <ul>
-                                <li>
-                                    <a href="jobs.html">Mohakhali</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Gulshan</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banani</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Uttar</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banasree</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Badda</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Malibag</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Mirpur</a>
-                                </li>
-                                <li>
-                                    <button type="button"  data-bs-toggle="modal" data-bs-target="#Dhaka" > See all <i class="fas fa-long-arrow-alt-right"></i></button>
-                                    <span></span>
-                                </li>
-                            </ul>
-                            <!-- Modal -->
-                            <div class="modal fade" id="Dhaka" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="DhakaLabel">Select Your Cities</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                    
-                                        <ul class="all_cities">
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="state">
-                            <h5>Dhaka</h5>
-                            <ul>
-                                <li>
-                                    <a href="jobs.html">Mohakhali</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Gulshan</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banani</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Uttar</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banasree</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Badda</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Malibag</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Mirpur</a>
-                                </li>
-                                <li>
-                                    <button type="button"  data-bs-toggle="modal" data-bs-target="#Dhaka" > See all <i class="fas fa-long-arrow-alt-right"></i></button>
-                                    <span></span>
-                                </li>
-                            </ul>
-                            <!-- Modal -->
-                            <div class="modal fade" id="Dhaka" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="DhakaLabel">Select Your Cities</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                    
-                                        <ul class="all_cities">
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="state">
-                            <h5>Dhaka</h5>
-                            <ul>
-                                <li>
-                                    <a href="jobs.html">Mohakhali</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Gulshan</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banani</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Uttar</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banasree</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Badda</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Malibag</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Mirpur</a>
-                                </li>
-                                <li>
-                                    <button type="button"  data-bs-toggle="modal" data-bs-target="#Dhaka" > See all <i class="fas fa-long-arrow-alt-right"></i></button>
-                                    <span></span>
-                                </li>
-                            </ul>
-                            <!-- Modal -->
-                            <div class="modal fade" id="Dhaka" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="DhakaLabel">Select Your Cities</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                    
-                                        <ul class="all_cities">
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="state">
-                            <h5>Dhaka</h5>
-                            <ul>
-                                <li>
-                                    <a href="jobs.html">Mohakhali</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Gulshan</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banani</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Uttar</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banasree</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Badda</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Malibag</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Mirpur</a>
-                                </li>
-                                <li>
-                                    <button type="button"  data-bs-toggle="modal" data-bs-target="#Dhaka" > See all <i class="fas fa-long-arrow-alt-right"></i></button>
-                                    <span></span>
-                                </li>
-                            </ul>
-                            <!-- Modal -->
-                            <div class="modal fade" id="Dhaka" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="DhakaLabel">Select Your Cities</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                    
-                                        <ul class="all_cities">
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="state">
-                            <h5>Dhaka</h5>
-                            <ul>
-                                <li>
-                                    <a href="jobs.html">Mohakhali</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Gulshan</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banani</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Uttar</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banasree</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Badda</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Malibag</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Mirpur</a>
-                                </li>
-                                <li>
-                                    <button type="button"  data-bs-toggle="modal" data-bs-target="#Dhaka" > See all <i class="fas fa-long-arrow-alt-right"></i></button>
-                                    <span></span>
-                                </li>
-                            </ul>
-                            <!-- Modal -->
-                            <div class="modal fade" id="Dhaka" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="DhakaLabel">Select Your Cities</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                    
-                                        <ul class="all_cities">
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="state">
-                            <h5>Dhaka</h5>
-                            <ul>
-                                <li>
-                                    <a href="jobs.html">Mohakhali</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Gulshan</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banani</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Uttar</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banasree</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Badda</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Malibag</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Mirpur</a>
-                                </li>
-                                <li>
-                                    <button type="button"  data-bs-toggle="modal" data-bs-target="#Dhaka" > See all <i class="fas fa-long-arrow-alt-right"></i></button>
-                                    <span></span>
-                                </li>
-                            </ul>
-                            <!-- Modal -->
-                            <div class="modal fade" id="Dhaka" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="DhakaLabel">Select Your Cities</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                    
-                                        <ul class="all_cities">
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="state">
-                            <h5>Dhaka</h5>
-                            <ul>
-                                <li>
-                                    <a href="jobs.html">Mohakhali</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Gulshan</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banani</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Uttar</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Banasree</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Badda</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Malibag</a>
-                                </li>
-                                <li>
-                                    <a href="jobs.html">Mirpur</a>
-                                </li>
-                                <li>
-                                    <button type="button"  data-bs-toggle="modal" data-bs-target="#Dhaka" > See all <i class="fas fa-long-arrow-alt-right"></i></button>
-                                    <span></span>
-                                </li>
-                            </ul>
-                            <!-- Modal -->
-                            <div class="modal fade" id="Dhaka" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="DhakaLabel">Select Your Cities</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                    
-                                        <ul class="all_cities">
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhanmondi</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Azimpur</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Dhakessori</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Samibag</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Babubazar</a>
-                                            </li>
-                                            <li>
-                                                <a href="jobs.html">Sadarghat</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
+        </div>
+        <!-- OUR BLOG END -->
+
+            
+
 
         </div>
         <!-- CONTENT END -->
@@ -1105,13 +1076,13 @@
                                
                                 <div class="col-lg-3 col-md-6 col-sm-6">
                                     <div class="widget widget_services ftr-list-center">
-                                        <h3 class="widget-title">For Candidate</h3>
+                                        <h3 class="widget-title">Important Links</h3>
                                         <ul>
-                                            <li><a href="admin/dashboard.html">User Dashboard</a></li>
-                                            <li><a href="admin/dash-resume-alert.html">Alert resume</a></li>
-                                            <li><a href="admin/candidate-grid.html">Candidates</a></li>
-                                            <li><a href="blog-list.html">Blog List</a></li>
-                                            <li><a href="blog-single.html">Blog single</a></li>
+                                            <li class=""><a href="about-1.html">About</a></li>
+                                            <li class=""><a href="pricing.html">Pricing</a></li>
+                                            <li class=""><a href="contact.html">Contact</a></li>
+                                            <li class=""><a href="faq.html">FAQ</a></li>
+                                            <li class=""><a href="login.html">Login</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1120,37 +1091,34 @@
                                     <div class="widget widget_services ftr-list-center">
                                         <h3 class="widget-title">For Employers</h3>
                                         <ul>
-                                            <li><a href="dash-post-job.html">Post Jobs</a></li>
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="job-list.html">Jobs Listing</a></li>
-                                            <li><a href="job-detail.html">Jobs details</a></li>
+                                            <li><a href="employer/employer-post-job.html">Post Jobs</a></li>
+                                            <li><a href="employer/employer-profile.html">Profile</a></li>
+                                            <li><a href="employer/employer-list.html">Employer List </a></li>
+                                            <li><a href="employer/employer-resume.html">Resume</a></li>
+                                            <li><a href="employer/employer-transaction.html">Transaction</a></li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-3 col-md-6 col-sm-6">
                                     <div class="widget widget_services ftr-list-center">
-                                        <h3 class="widget-title">Helpful Resources</h3>
+                                        <h3 class="widget-title">For Candidate</h3>
                                         <ul>
-                                            <li><a href="faq.html">FAQs</a></li>
-                                            <li><a href="employer-detail.html">Employer detail</a></li>
-                                            <li><a href="dash-my-profile.html">Profile</a></li>
-                                            <li><a href="error-404.html">404 Page</a></li>
-                                            <li><a href="pricing.html">Pricing</a></li>
+                                            <li><a href="candidate/candidate-profile.html">Profile </a></li>
+                                            <li><a href="candidate/candidate-dashboard.html">DashBoard </a></li>
+                                            <li><a href="candidate/candidate-chat.html">Chat</a></li>
+                                            <li><a href="candidate/candidate-job-alert.html">job Alert </a></li>
+                                            <li><a href="candidate/candidate-my-resume.html">Resume </a></li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-3 col-md-6 col-sm-6">  
                                     <div class="widget widget_services ftr-list-center">
-                                        <h3 class="widget-title">Quick Links</h3>
+                                        <h3 class="widget-title">For Seller </h3>
                                         <ul>
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-1.html">About us</a></li>
-                                            <li><a href="dash-bookmark.html">Bookmark</a></li>
-                                            <li><a href="job-grid.html">Jobs</a></li>
-                                            <li><a href="employer-list.html">Employer</a></li>
+                                            <li><a href="seller/seller-profile.html">Profile</a></li>
+                                            <li><a href="seller/sell-post.html">Post </a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1457,7 +1425,8 @@
 <script  src="js/owl.carousel.min.js"></script><!-- OWL  SLIDER  -->
 <script  src="js/theia-sticky-sidebar.js"></script><!-- STICKY SIDEBAR  -->
 <script  src="js/lc_lightbox.lite.js" ></script><!-- IMAGE POPUP -->
-<script  src="js/bootstrap-select.min.js"></script><!-- Form js -->
+<script  src="js/bootstrap-select.min.js"></script>Form js
+
 <script  src="js/dropzone.js"></script><!-- IMAGE UPLOAD  -->
 <script  src="js/jquery.scrollbar.js"></script><!-- scroller -->
 <script  src="js/bootstrap-datepicker.js"></script><!-- scroller -->
@@ -1469,11 +1438,9 @@
 <script  src="js/swiper-bundle.min.js"></script><!-- Swiper JS -->
 <script  src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
 <script  src="js/switcher.js"></script><!-- SHORTCODE FUCTIONS  -->
-<script src="js/srollTochangeCSS.js"></script>  <!--Change css script-->
 
+<script src="js/srollTochangeCSS.js"></script>  <!--Change css script-->
 
 </body>
 
-
-<!-- Mirrored from thewebmax.org/jobzilla/index-18.html?theme=css/skin/skin-8 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Jul 2023 06:37:08 GMT -->
 </html>
