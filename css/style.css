@@ -2146,6 +2146,7 @@ ol li {
   color: rgba(0, 0, 0, 0) !important;
   transition: all 0.3s ease !important;
   text-shadow: 0 0 0 #fff, 400px 0 0 #fff;
+  margin: 3px 0px;
 }
 
 .site-button:hover {
@@ -25055,6 +25056,7 @@ HOME PAGE 15 START
   /* width: 100%; */
   overflow: auto;
   scrollbar-width: none;
+  justify-content: center;
 }
 .page_buttons::-webkit-scrollbar{
   display: none;
@@ -25157,6 +25159,15 @@ HOME PAGE 15 START
   text-align: center;
   align-items: center;
   display: flex;
+  margin-left: auto;
+}
+.tab_view{
+  display: none !important;
+}
+@media(max-width: 992px){
+  .tab_view{
+    display: block !important;
+  }
 }
 @media(max-width: 576px){
   .tab_hide{
@@ -25174,6 +25185,9 @@ HOME PAGE 15 START
   }
   .header-style-3 .navbar-toggler {
     margin: 0 !important;
+  }
+  .after_scroll .page_buttons{
+    justify-content: start;
   }
 }
 .tab_show{

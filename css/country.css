@@ -274,6 +274,9 @@ font-family: serif;
     .world_region p {
         font-size: 10px;
     }
+    .world_region {
+        justify-content: start;
+    }
 
 }
 
