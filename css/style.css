@@ -1103,7 +1103,7 @@ ol li {
 }
 
 .m-b30 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .m-b40 {
@@ -5283,7 +5283,7 @@ ol li {
 /*Client carousel 2*/
 .home-client-carousel2 {
   padding: 0px;
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 @media (max-width: 991px) {
   .home-client-carousel2 {
@@ -5857,7 +5857,7 @@ button.scroltop span {
 
 /*inner page banner*/
 .wt-bnr-inr {
-  height: 390px;
+  height: 252px;
   background-size: cover;
   background-position: center center;
   display: table;
@@ -5866,7 +5866,7 @@ button.scroltop span {
 }
 @media (max-width: 767px) {
   .wt-bnr-inr {
-    height: 380px;
+    /* height: 380px; */
   }
 }
 .wt-bnr-inr .container {
@@ -8127,7 +8127,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 @media (max-width: 767px) {
   .twm-jobs-list-style1 {
@@ -8137,8 +8137,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   }
 }
 .twm-jobs-list-style1 .twm-media {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   display: inline-block;
   text-align: center;
   background-color: #fff;
@@ -8146,7 +8146,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   box-shadow: 0px 0px 40px rgba(56, 152, 226, 0.3);
   margin-right: 40px;
   position: absolute;
-  bottom: -20px;
+  /* bottom: -20px; */
   line-height: 150px;
   overflow: hidden;
 }
@@ -8241,7 +8241,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   padding: 20px;
   border-radius: 10px;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 @media (max-width: 420px) {
   .twm-jobs-grid-style1 {
@@ -8260,7 +8260,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   box-shadow: 0px 0px 40px rgba(56, 152, 226, 0.3);
   margin-right: 30px;
   position: absolute;
-  top: -30px;
+  top: -10px;
   overflow: hidden;
 }
 @media (max-width: 420px) {
@@ -25268,7 +25268,7 @@ HOME PAGE 15 START
   justify-content: center;
   /* margin-top: 100px; */
   position: sticky;
-  top: 115px;
+  top: 95px;
   z-index: 9;
   /* background: #fff; */
   /* box-shadow: 0px 0px 25px #3898e24d; */
@@ -25277,7 +25277,7 @@ HOME PAGE 15 START
   padding: 10px 0px;
 }
 .serch_input{width: 60%;}
-.serch_input input{width: 100%;/* min-width: 300px; */border: 1px solid #ededed;padding: 0px 20px;height: 50px;border-radius: 30px;}
+.serch_input input{width: 100%;/* min-width: 300px; */border: 1px solid #ededed;padding: 0px 20px;height: 40px;border-radius: 30px;}
 .serch_input button{
   position: absolute;
   right: 10px;
@@ -25293,6 +25293,13 @@ HOME PAGE 15 START
 }
 .div_width{
   width: 60%;
+}
+.twm-jobs-list-wrap .mb-5{
+  margin: 0 !important;
+  margin: 10px !important;
+}
+.main-bar .my-2{
+  margin: 0 !important;
 }
 
 
@@ -25363,7 +25370,7 @@ HOME PAGE 15 START
     font-size: 12px;
   }
   .category_bar{
-    top: 55px;
+    top: 40px;
   }
   .div_width{
     width: 100%;
@@ -25425,7 +25432,7 @@ HOME PAGE 15 START
     font-size: 12px;
   }
   .wt-bnr-inr {
-    height: 300px;
+    height: 200px;
   }
   .wt-bnr-inr-entry .banner-title-outer .banner-title-name .wt-title {
     font-size: 18px;
