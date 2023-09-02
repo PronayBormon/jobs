@@ -257,7 +257,7 @@ h1 {
 }
 
 h2 {
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 500;
 }
 
@@ -267,7 +267,7 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -545,7 +545,7 @@ ol li {
 }
 
 .p-t120 {
-  padding-top: 120px;
+  padding-top: 30px;
 }
 
 .p-t130 {
@@ -606,7 +606,7 @@ ol li {
 }
 
 .p-b90 {
-  padding-bottom: 90px;
+  padding-bottom: 20px;
 }
 
 .p-b100 {
@@ -2040,7 +2040,7 @@ ol li {
 .site-button {
   outline: none;
   color: #fff;
-  padding: 15px 30px;
+  padding: 10px 20px;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -2048,7 +2048,7 @@ ol li {
   display: inline-table;
   background-color: #ff9c00;
   border: none;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   transition: 0.5s all ease;
 }
@@ -5051,7 +5051,7 @@ ol li {
   position: relative;
   display: inline-block;
   color: #ff9c00;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 40px;
   font-weight: 500;
 }
@@ -5093,7 +5093,7 @@ ol li {
   text-align: left;
 }
 .section-head.left.wt-small-separator-outer h2 {
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 @media (max-width: 991px) {
   .section-head.left.wt-small-separator-outer h2 {
@@ -5115,7 +5115,7 @@ ol li {
   margin-bottom: 40px;
 }
 .section-head.center.wt-small-separator-outer {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
   max-width: 645px;
   margin-left: auto;
@@ -5127,6 +5127,7 @@ ol li {
 .section-head.center.wt-small-separator-outer h2 {
   max-width: 650px;
   margin: 0px auto;
+  font-size: 30px;
 }
 @media (max-width: 991px) {
   .section-head.center.wt-small-separator-outer h2 {
@@ -5496,7 +5497,7 @@ ol li {
 .footer-light {
   color: #17171d;
   font-size: 16px;
-  padding-top: 80px;
+  padding-top: 30px;
   background-color: #f0f6fe;
 }
 .footer-light .ftr-nw-content {
@@ -8126,6 +8127,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-bottom: 28px;
 }
 @media (max-width: 767px) {
   .twm-jobs-list-style1 {
@@ -8163,7 +8165,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   display: inline-block;
 }
 .twm-jobs-list-style1 p {
-  font-size: 14px;
+  font-size: 13px;
 }
 .twm-jobs-list-style1 .twm-mid-content {
   padding-left: 180px;
@@ -9490,7 +9492,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   display: inline-block;
 }
 .twm-tabs-style-1 .nav-tabs {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   border: none;
 }
 .twm-tabs-style-1 .nav-tabs .nav-item .nav-link {
@@ -15364,7 +15366,7 @@ strong {
   line-height: 50px;
   background-color: #f0f6fe !important;
   border: none;
-  padding: 0px 15px;
+  padding: 0px 4px;
   border-radius: 10px;
 }
 .wt-select-bar-2 .btn-light:focus {
@@ -17006,7 +17008,7 @@ strong {
 
 /*Featured cities*/
 .twm-featured-city2 {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   padding: 15px;
   border-radius: 10px;
   background-color: #fff;
@@ -24696,7 +24698,7 @@ HOME PAGE 15 START
   font-size: 20px;
   font-weight: 500;
   color: #17171d;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 @media (max-width: 575px) {
   .twm-home18-banner-section .row .twm-bnr-left-section .twm-bnr-title-small {
@@ -24705,11 +24707,11 @@ HOME PAGE 15 START
   }
 }
 .twm-home18-banner-section .row .twm-bnr-left-section .twm-bnr-title-large {
-  font-size: 66px;
+  font-size: 55px;
   line-height: 72px;
   font-weight: 500;
   color: #17171d;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 @media (max-width: 1360px) {
   .twm-home18-banner-section .row .twm-bnr-left-section .twm-bnr-title-large {
@@ -25128,6 +25130,7 @@ HOME PAGE 15 START
 .search_div{
   position: relative;
   margin-right: 10px;
+  width: 100%;
 }
 .search_div input{
   border: 1px solid #4b49494d;
@@ -25164,177 +25167,7 @@ HOME PAGE 15 START
 .tab_view{
   display: none !important;
 }
-@media(max-width: 992px){
-  .tab_view{
-    display: block !important;
-  }
-}
-@media(max-width: 576px){
-  .tab_hide{
-    display: none !important;
-  }
-  .mobile_view{
-    display: block !important;
-  }
-  .pc_view{
-  
-    display: none !important;
-  }
-  .header-style-3 .extra-nav {
-    height: 35px;
-  }
-  .header-style-3 .navbar-toggler {
-    margin: 0 !important;
-  }
-  .after_scroll .page_buttons{
-    justify-content: start;
-  }
-}
-.tab_show{
-  display: none;
-}
-.tab_dis_hide{
-  display: block;
-}
 
-/* ==================================== media query start here ================================== */
-@media(max-width: 992px){
-  .tab_show{
-    display: block;
-  }
-  .tab_dis_hide{
-    display: none;
-  }
-  .twm-blog-post-1-outer .wt-post-media {
-    max-height: 170px;
-  }
-}
-@media(max-width: 576px){
-  .twm-blog-post-1-outer .wt-post-media {
-    max-height: 150px;
-  }
-  .twm-blog-post-1-outer .wt-post-info .wt-post-title .post-title {
-    margin-bottom: 8px;
-  }
-  .twm-blog-post-1-outer .wt-post-info .wt-post-meta {
-    margin-bottom: 5px;
-  }
-  .btn_filter {
-    padding: 3px 5px;
-    font-size: 12px;
-  }
-}
-@media(max-width: 426px){
-  .twm-bnr-search-bar .site-button {
-      font-size: 12px;
-  }
-  .v-noti-wrap .v-content .wt-title {
-      font-size: 14px;
-  }
-  .v-noti-wrap .v-content p {
-    font-size: 14px;
-  }
-  h4 {
-    font-size: 14px;
-  }
-  .twm-jobs-list-style1 p {
-    font-size: 12px;
-  }
-  .twm-jobs-list-style1 .twm-right-content .twm-jobs-amount {
-    font-size: 12px;
-  }
-  .twm-jobs-list-style1 .twm-right-content .twm-jobs-browse {
-    font-size: 13px;
-  }
-  .wt-small-separator {
-    color: #727d8f;
-    font-size: 14px;
-  }
-  .section-head.left.wt-small-separator-outer h2 {
-    font-size: 14px;
-  }
-  .counter-outer-two .tw-count-number {
-    font-size: 18px;
-  }
-  .pricing-table-1 .p-table-inner .p-table-price p {
-    font-size: 14px;
-
-  }
-  .pricing-table-1 .p-table-inner .p-table-price span {
-      font-size: 25px;
-  }
-  a {
-    font-size: 14px;
-  }
-  .twm-featured-city2 .twm-city-info .twm-city-jobs {
-    font-size: 12px;
-  }
-  .twm-blog-post-h5-outer .wt-post-info .wt-post-text p {
-    font-size: 12px;
-  }
-  .pricing-table-1 .p-table-inner .p-table-list ul li {
-    font-size: 13px;
-  }
-  .wt-separator-two-part.content-white .wt-small-separator {
-    color: #fff;
-    font-size: 12px;
-  }
-  .wt-bnr-inr {
-    height: 300px;
-  }
-  .wt-bnr-inr-entry .banner-title-outer .banner-title-name .wt-title {
-    font-size: 18px;
-  }
-  h4 {
-    font-size: 12px;
-  }
-  .twm-sidebar-ele-filter ul li {
-    font-size: 12px;
-  }
-  .tw-sidebar-tags-wrap .tagcloud a {
-    font-size: 10px;
-  }
-  .product-filter-wrap .woocommerce-result-count-left {
-    font-size: 14px;
-  }
-  .product-filter-wrap .twm-filter-select .woocommerce-result-count {
-    font-size: 12px;
-  }
-  .twm-explore-content .twm-title-large h2 {
-    font-size: 16px;
-  }
-  .job-categories-block-2 {
-    padding: 10px;
-  }
-  .job-categories-block-2 .twm-media {
-    margin: 0px auto 15px;
-  }
-
-  .cons-contact-form .form-control {
-    height: 40px;
-    padding: 0px 10px;
-  }
-  .tw-faq-section .tw-faq .accordion-item .accordion-button {
-    font-size: 14px;
-  }
-  .accordion-body {
-    padding: 1rem 1.25rem;
-    font-size: 12px;
-  }
-  .twm-blog-post-1-outer .wt-post-info .wt-post-text p {
-    font-size: 14px;
-  }
-  .twm-blog-post-1-outer .wt-post-info .wt-post-meta ul li.post-author {
-    font-size: 12px;
-  }
-  .twm-blog-post-1-outer .wt-post-info .wt-post-text p {
-    font-size: 12px;
-  }
-  .twm-blog-post-1-outer .wt-post-info .wt-post-meta ul li.post-date {
-    font-size: 12px;
-  }
-
-}
 
 
 .member,.star_member{
@@ -25429,4 +25262,221 @@ HOME PAGE 15 START
 }
 .scroll::-webkit-scrollbar{
   display: none;
+}
+.category_bar{
+  display: flex;
+  justify-content: center;
+  /* margin-top: 100px; */
+  position: sticky;
+  top: 115px;
+  z-index: 9;
+  /* background: #fff; */
+  /* box-shadow: 0px 0px 25px #3898e24d; */
+  max-width: 1340px;
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+.serch_input{width: 60%;}
+.serch_input input{width: 100%;/* min-width: 300px; */border: 1px solid #ededed;padding: 0px 20px;height: 50px;border-radius: 30px;}
+.serch_input button{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(-10px, -50%);
+  border: none;
+  background: transparent;
+  color: #ff9c00;
+  font-size: 20px;
+}
+.serch_input form{
+  position: relative;
+}
+.div_width{
+  width: 60%;
+}
+
+
+
+
+@media(max-width: 992px){
+  .tab_view{
+    display: block !important;
+  }
+}
+@media(max-width: 576px){
+  .tab_hide{
+    display: none !important;
+  }
+  .mobile_view{
+    display: block !important;
+  }
+  .pc_view{
+  
+    display: none !important;
+  }
+  .header-style-3 .extra-nav {
+    height: 35px;
+  }
+  .header-style-3 .navbar-toggler {
+    margin: 0 !important;
+  }
+  .after_scroll .page_buttons{
+    justify-content: start;
+  }
+}
+.tab_show{
+  display: none;
+}
+.tab_dis_hide{
+  display: block;
+}
+
+/* ==================================== media query start here ================================== */
+@media(max-width: 992px){
+  .tab_show{
+    display: block;
+  }
+  .tab_dis_hide{
+    display: none;
+  }
+  .twm-blog-post-1-outer .wt-post-media {
+    max-height: 170px;
+  }
+}
+@media(max-width: 768px){
+  .category_bar{
+    top: 95px;
+  }
+}
+@media(max-width: 576px){
+  .twm-blog-post-1-outer .wt-post-media {
+    max-height: 150px;
+  }
+  .twm-blog-post-1-outer .wt-post-info .wt-post-title .post-title {
+    margin-bottom: 8px;
+  }
+  .twm-blog-post-1-outer .wt-post-info .wt-post-meta {
+    margin-bottom: 5px;
+  }
+  .btn_filter {
+    padding: 3px 5px;
+    font-size: 12px;
+  }
+  .category_bar{
+    top: 55px;
+  }
+  .div_width{
+    width: 100%;
+  }
+}
+@media(max-width: 426px){
+  .twm-bnr-search-bar .site-button {
+      font-size: 12px;
+  }
+  .v-noti-wrap .v-content .wt-title {
+      font-size: 14px;
+  }
+  .v-noti-wrap .v-content p {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  .twm-jobs-list-style1 p {
+    font-size: 12px;
+  }
+  .twm-jobs-list-style1 .twm-right-content .twm-jobs-amount {
+    font-size: 12px;
+  }
+  .twm-jobs-list-style1 .twm-right-content .twm-jobs-browse {
+    font-size: 13px;
+  }
+  .wt-small-separator {
+    color: #727d8f;
+    font-size: 14px;
+  }
+  .section-head.left.wt-small-separator-outer h2 {
+    font-size: 14px;
+  }
+  .counter-outer-two .tw-count-number {
+    font-size: 18px;
+  }
+  .pricing-table-1 .p-table-inner .p-table-price p {
+    font-size: 14px;
+
+  }
+  .pricing-table-1 .p-table-inner .p-table-price span {
+      font-size: 25px;
+  }
+  a {
+    font-size: 14px;
+  }
+  .twm-featured-city2 .twm-city-info .twm-city-jobs {
+    font-size: 12px;
+  }
+  .twm-blog-post-h5-outer .wt-post-info .wt-post-text p {
+    font-size: 12px;
+  }
+  .pricing-table-1 .p-table-inner .p-table-list ul li {
+    font-size: 13px;
+  }
+  .wt-separator-two-part.content-white .wt-small-separator {
+    color: #fff;
+    font-size: 12px;
+  }
+  .wt-bnr-inr {
+    height: 300px;
+  }
+  .wt-bnr-inr-entry .banner-title-outer .banner-title-name .wt-title {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  .twm-sidebar-ele-filter ul li {
+    font-size: 12px;
+  }
+  .tw-sidebar-tags-wrap .tagcloud a {
+    font-size: 10px;
+  }
+  .product-filter-wrap .woocommerce-result-count-left {
+    font-size: 14px;
+  }
+  .product-filter-wrap .twm-filter-select .woocommerce-result-count {
+    font-size: 10px;
+  }
+  .twm-explore-content .twm-title-large h2 {
+    font-size: 16px;
+  }
+  .job-categories-block-2 {
+    padding: 10px;
+  }
+  .job-categories-block-2 .twm-media {
+    margin: 0px auto 15px;
+  }
+
+  .cons-contact-form .form-control {
+    height: 40px;
+    padding: 0px 10px;
+  }
+  .tw-faq-section .tw-faq .accordion-item .accordion-button {
+    font-size: 14px;
+  }
+  .accordion-body {
+    padding: 1rem 1.25rem;
+    font-size: 12px;
+  }
+  .twm-blog-post-1-outer .wt-post-info .wt-post-text p {
+    font-size: 14px;
+  }
+  .twm-blog-post-1-outer .wt-post-info .wt-post-meta ul li.post-author {
+    font-size: 12px;
+  }
+  .twm-blog-post-1-outer .wt-post-info .wt-post-text p {
+    font-size: 12px;
+  }
+  .twm-blog-post-1-outer .wt-post-info .wt-post-meta ul li.post-date {
+    font-size: 12px;
+  }
+
 }
