@@ -5865,9 +5865,7 @@ button.scroltop span {
   position: relative;
 }
 @media (max-width: 767px) {
-  .wt-bnr-inr {
-    /* height: 380px; */
-  }
+
 }
 .wt-bnr-inr .container {
   display: table;
@@ -9674,9 +9672,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   align-items: center;
 }
 @media (max-width: 400px) {
-  .product-filter-wrap .twm-filter-select {
-    /* display: block; */
-  }
+
 }
 .product-filter-wrap .twm-filter-select .woocommerce-result-count {
   margin-right: 15px;
