@@ -259,6 +259,9 @@ font-family: serif;
     .countrys ul li img {
         width: 50px;
     }
+    .bannar_video {
+        height: 50vh;
+      }
 }
 @media(max-width: 426px){
     .bannar_video h1 {
